@@ -1,0 +1,497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+
+
+<head>
+    <title>all-movies</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta http-equiv="cache-control" content="must-revalidate" />
+
+    <!-- Favicon -->
+    
+            <link rel="shortcut icon" href="/modules/dx-base-demo-templates/img/favicon/favicon.ico" type="image/x-icon">
+        
+    <!-- Web Fonts -->
+    
+
+
+    <!-- CSS Global Compulsory -->
+    
+
+
+
+    <!-- CSS Header and Footer -->
+    
+
+
+
+    <!-- CSS Implementing Plugins -->
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CSS Jahia Theme -->
+    
+
+    <!-- JS Global Compulsory -->
+    
+
+
+
+
+    <!-- JS Implementing Plugins -->
+    
+
+
+
+
+
+
+    <!-- CSS Customization -->
+    
+
+
+    <!-- JS Page Level -->
+    
+
+
+
+    <!-- Custom Javascript -->
+    
+
+
+
+    <!--[if lt IE 9]>
+    <jahia:resource type="javascript" path="%2Fmodules%2Fdx-base-demo-templates%2Fjavascript%2Frespond.js" insert="false" resource="respond.js" title="" key="" />
+<jahia:resource type="javascript" path="%2Fmodules%2Fdx-base-demo-templates%2Fjavascript%2Fhtml5shiv.js" insert="false" resource="html5shiv.js" title="" key="" />
+<jahia:resource type="javascript" path="%2Fmodules%2Fdx-base-demo-templates%2Fjavascript%2Fplaceholder-IE-fixes.js" insert="false" resource="placeholder-IE-fixes.js" title="" key="" />
+
+    <![endif]-->
+
+<script type="text/javascript">
+var contextJsParameters={contextPath:"",lang:"fr",uilang:"fr",siteUuid:"86806318-45db-4ae4-955e-5f5abb75b216",wcag:true,ckeCfg:""}; var CKEDITOR_BASEPATH="/modules/ckeditor/javascript/"; var scayt_custom_params=new Array(); scayt_custom_params['sLang']='fr_FR';
+</script>
+<link id="staticAssetCSS0" rel="stylesheet" href="../../../../generated-resources/e925f29aa43612afbc1497ae295ac9c8.min.css" media="screen" type="text/css"/>
+<script id="staticAssetJavascript0" type="text/javascript" src="../../../../generated-resources/bb5a6add34c3c9ac851578e543f35a.min.js"></script>
+<script id="staticAssetAggregatedJavascriptList0" type="text/javascript">
+var jASAJ=jASAJ || new Array();
+jASAJ.push('/modules/jquery/javascript/jquery-3.3.1.min.js');
+jASAJ.push('/modules/assets/javascript/jquery.jahia.min.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/jquery-migrate.min.js');
+jASAJ.push('/modules/bootstrap3-core/javascript/bootstrap.min.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/back-to-top.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/smoothScroll.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/modernizr.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/jquery.parallax.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/jquery.cslider.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/toastr.min.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/app.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/parallax-slider.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/custom/template.js');
+jASAJ.push('/modules/dx-base-demo-core/javascript/plugins/login-signup-modal-window/main.js');
+</script>
+
+</head>
+
+
+
+
+<body class="header-fixed header-fixed-space-v2 " >
+
+<div class="wrapper">
+    <!--=== Header v8 ===-->
+    <div class="header-v8 header-sticky">
+        <!-- Topbar blog -->
+        <div class="blog-topbar" >
+            <div class="topbar-search-block">
+                
+
+    <div class="container">
+        
+<form method="post" name="searchForm" action="/fr/sites/digitall/home/search-results.html" >
+    <input type="hidden" name="jcrMethodToCall" value="get" />
+    <input type="hidden" name="src_originSiteKey" value="digitall"/>
+    
+<input onblur="if(this.value=='')this.value='Effectuez une recherche...';" onfocus="if(this.value=='Effectuez une recherche...')this.value='';" name="src_terms[0].term" id="searchTerm" placeholder="Effectuez une recherche..." type="text" class="form-control"  value="Effectuez une recherche..."/>
+<input type="hidden" name="src_terms[0].applyFilter" value="true"/>
+
+    <input type="hidden" name="src_terms[0].match" value="all_words"/>
+
+    <input type="hidden" name="src_terms[0].fields.siteContent" value="true"/>
+
+    <input type="hidden" name="src_terms[0].fields.tags" value="true"/>
+
+    <input type="hidden" name="src_terms[0].fields.files" value="true"/>
+<input type="hidden" name="src_sites.values" value="digitall"/>
+    <input type="hidden" name="src_sitesForReferences.values" value="systemsite"/>
+<input type="hidden" name="src_languages.values" value="fr"/>
+            <div class="search-close"><i class="icon-close"></i></div>
+        
+</form>
+    </div><div class="clear"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!--Small language login menu-->
+                    <div class="col-sm-6 col-xs-6">
+                        <div class="topbar-list topbar-menu">
+                            
+
+<div id="languages" class="hidden-sm hidden-md hidden-lg">
+    
+        <a href="javascript:void(0);"><i class="fa fa-globe"></i>&nbsp;Langue
+            <span class="caret"></span></a>
+        <ul class="topbar-dropdown">
+                
+                        <li><a title="Changer de langue" href="all-movies.html">allemand</a>
+                        </li>
+                    
+                        <li><a title="Changer de langue" href="all-movies.html">anglais</a>
+                        </li>
+                    
+        </ul>
+    
+</div><div class="hidden-sm hidden-md hidden-lg"><a id="login" href="#loginForm" role="button" data-toggle="modal"
+                                                      data-target="#loginForm"><i class="fa fa-user"></i>
+            Login</a>
+        </div><div class="clear"></div>
+                        </div>
+                        <div class="topbar-toggler"><span class="user-box hidden-sm hidden-md hidden-lg"> <i
+                                class="fa fa-user"></i>&nbsp;|&nbsp;<i class="fa fa-globe"></i>&nbsp;<i
+                                class="fa fa-caret-up"></i></span>
+                        </div>
+                        <div class="pull-left"><span class="hidden-sm hidden-md hidden-lg">
+                            <i class="fa fa-search search-btn"></i></span>
+                        </div>
+                    </div>
+                    <!--/end Small language login menu-->
+                    <!--Full language login menu-->
+                    <div class="col-sm-6 col-xs-6 clearfix">
+                        <div class="topbar-list topbar-log_reg pull-right visible-sm-block visible-md-block visible-lg-block">
+                            <div class="pull-right">
+    <i class="fa fa-search search-btn"></i>
+</div><div class="pull-right"><a id="login" href="#loginForm" role="button" data-toggle="modal"
+                                   data-target="#loginForm"><i class="fa fa-user"></i> Login</a>
+        </div>
+
+<div id="languages" class=" pull-right">
+    
+        <a href="javascript:void(0);"><i class="fa fa-globe"></i>&nbsp;Langue
+            <span class="caret"></span></a>
+        <ul class="languages topbar-dropdown">
+                
+                        <li><a title="Changer de langue" href="all-movies.html">allemand</a>
+                        </li>
+                    
+                        <li><a title="Changer de langue" href="all-movies.html">anglais</a>
+                        </li>
+                    
+        </ul>
+    
+</div><div class="clear"></div>
+                        </div>
+                    </div>
+                    <!--/end Full language login menu-->
+                </div>
+                <!--/end row-->
+            </div>
+            <!--/end container-->
+        </div>
+        <!-- End Topbar blog -->
+
+        <!-- Navbar -->
+
+        <div class="navbar mega-menu" role="navigation" >
+                    <div class="container">
+                        <div class="res-container">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button><div class="clear"></div>
+                                    <div id="logo" class="navbar-brand">
+                                        <a href="../../../../home.html" class="logo"><img src="../../../../files/live/modules/dx-base-demo-templates/2.0.2/templates/files/img/logo1-default.png" alt="Logo"></a><div class="clear"></div>
+                                    </div>
+                                
+                        </div>
+                        <div class="collapse navbar-collapse navbar-responsive-collapse">
+                            <ul class="nav navbar-nav">
+
+<li><a href="../../../../home.html" class="dropdown-toggle">Accueil</a></li>
+
+<li class="dropdown ">    <a href="../../../about.html" class="dropdown-toggle">A propos</a>
+<ul class="dropdown-menu">
+<li >
+<a href="../../../about/history.html" >Origine   </a></li>
+<li >
+<a href="../../../about/leadership.html" >Dirigeants   </a></li>
+</ul>
+</li>
+
+<li ><a href="../../../corporate-responsibility.html" class="dropdown-toggle">Responsabilité sociale</a></li>
+
+<li class="active"><a href="../../../our-companies.html" class="dropdown-toggle">Nos filiales</a></li>
+
+<li class="dropdown ">    <a href="../../../newsroom.html" class="dropdown-toggle">Presse</a>
+<ul class="dropdown-menu">
+<li >
+<a href="../../../newsroom/all-news.html" >Toutes les actualités   </a></li>
+</ul>
+</li>
+
+<li class="dropdown"><a class="dropdown-toggle" href="javascript:void(0)">&nbsp;<i class="fa fa-caret-down fa-lg"></i></a>
+<ul class="dropdown-menu pull-right dropdown-menu-alt-side">
+<li class="dropdown-submenu ">    <a href="../../../investors.html" class="dropdown-toggle">Investisseurs</a>
+<ul class="dropdown-menu">
+<li >
+<a href="../../../investors/events.html" >Evénements   </a></li>
+</ul>
+</li>
+
+</ul><div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Navbar -->
+            </div>
+            <!--=== End Header v8 ===-->
+
+            <div class="breadcrumbs-v3 img-v1 text-center" style="background-image: url(../../../../files/live/sites/digitall/files/images/slides/iStock_000045817332_Full.jpg)"
+    
+>
+    <div class="container">
+        
+                <img src="../../../../files/live/sites/digitall/files/images/companies/allmovieslogo_light.png" class="company-banner-logo"/>
+            
+        <p></p>
+    </div>
+</div><div class="clear"></div>
+            <!--=== Content Part ===-->
+            <div class="container margin-top-20">
+                
+
+    <div class="container-fluid">
+
+    <div class="row">
+<div class="col-md-9"><div class="row clients-page margin-bottom-30">
+    <br>
+    
+</div><div class="row clients-page margin-bottom-30" >
+<div class="row news-v2">
+<div class="col-md-4 sm-margin-bottom-30">
+    <div class="news-v2-badge">
+        <img class="img-responsive company-news-img" src="../../../../files/live/sites/digitall/files/images/news/holding-hands.jpg">
+        <p>
+            <span>6</span>
+            <small>janv.</small>
+        </p>
+    </div>
+    <div class="news-v2-desc bg-color-light">
+        <h3><a href="../../../newsroom/news-entry/article/movies-can-determine-your-succes.html">Des films peuvent être à l'origine de vos succès</a></h3>
+
+        
+        <p>Pour All-Movies, Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolorem... </p>
+    </div>
+</div><div class="col-md-4 sm-margin-bottom-30">
+    <div class="news-v2-badge">
+        <img class="img-responsive company-news-img" src="../../../../files/live/sites/digitall/files/images/backgrounds/foods.jpg">
+        <p>
+            <span>15</span>
+            <small>déc.</small>
+        </p>
+    </div>
+    <div class="news-v2-desc bg-color-light">
+        <h3><a href="../../../newsroom/news-entry/article/all-organic-foods-network-gains.html">Le réseau all-Organic Foods remporte un nouveau partenariat</a></h3>
+
+        
+        <p>all-Organic Foods Network, Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusanti... </p>
+    </div>
+</div><div class="col-md-4 sm-margin-bottom-30">
+    <div class="news-v2-badge">
+        <img class="img-responsive company-news-img" src="../../../../files/live/sites/digitall/files/images/news/logo-acme.png">
+        <p>
+            <span>1</span>
+            <small>déc.</small>
+        </p>
+    </div>
+    <div class="news-v2-desc bg-color-light">
+        <h3><a href="../../../about/history/area-main/timeline/merger-with-acme-space-ltd-is-of.html">Merger With Acme Space Ltd Is Official</a></h3>
+
+        
+        <p>The leading edge of technology is in aerospace; accordingly, Acme Space Ltd has merged with Digitall... </p>
+    </div>
+</div>
+        </div></div><div class="row clients-page margin-bottom-30"><div class="row news-v2">
+    
+</div>
+</div><div class="clear"></div></div>
+        <div class="col-md-3"><div class="headline"><h2>Headquarters</h2></div>
+<ul class="list-unstyled who">
+    
+    <li><a href="https://maps.google.com?q=1 Movie Plaza+Culver City, CA+90230+US"><i
+            class="fa fa-building-o"></i>1 Movie Plaza
+        <br/><i class="fa fa-building-o" style="visibility: hidden;"></i>Culver City, CA&nbsp;90230&nbsp;-&nbsp;US
+    </a>
+        
+</ul>
+
+<!-- Contact Social Icons -->
+<ul class="list-inline who margin-bottom-30">
+    
+        <li><a href="http://facebook.com"><i class="fa fa-facebook-official"></i></a></li>
+    
+        <li><a href="http://twitter.com"><i class="fa fa-twitter-square"></i></a></li>
+    
+        <li><a href="http://plus.google.com"><i class="fa fa-google-plus-square"></i></a></li>
+    
+        <li><a href="http://linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
+    
+</ul><div class="demodxmap margin-bottom-30 overflow-hidden" >
+     <div class="location-static-map">
+        
+        
+        <p class="location-static-map">
+            
+            <img src="https://maps.google.com/maps/api/staticmap?sensor=false&amp;size=400x255&amp;maptype=roadmap&amp;language=fr&amp;imagetype=png8&amp;markers=33.9933257%2c-118.3987842" title="33.9933257, -118.3987842" alt="33.9933257, -118.3987842"/>
+        </p>
+    </div>
+</div><div class="tag-box tag-box-v2 box-shadow shadow-effect-1">
+<div class="headline"><h2></h2></div>
+<ul class="list-unstyled margin-bottom-30">
+    
+
+
+<li><a href="all-movies/relatedPeople/daniel-taber.html"><img class="rounded-x center-block margin-bottom-20 margin-top-20 photo80" src="../../../../files/live/sites/digitall/files/images/people/portrait-taber.png" alt=""></a></li>
+<li><a href="all-movies/relatedPeople/daniel-taber.html">Daniel&nbsp;Taber</a></li>
+<li><p></p></li>
+
+<!-- Contact Social Icons -->
+<ul class="list-inline who">
+    
+        <li><a href="http://facebook.com"><i class="fa fa-facebook-official"></i></a></li>
+    
+</ul>
+
+<p></p><div class="clear"></div>
+</ul>
+</div><div class="clear"></div></div>
+    </div>
+
+    </div><div class="clear"></div>
+            </div>
+            <!-- End Content Part -->
+            <br/>
+            <!--=== Footer Version 1 ===-->
+            <div class="footer-v1">
+                <div class="footer" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 md-margin-bottom-40">
+                                
+                            </div>
+                            <!--/col-md-12-->
+
+                        </div>
+                    </div>
+                </div>
+                <!--/footer-->
+
+                <div class="copyright" >
+                    <div class="container">
+                        <div class="row">
+                            <!-- Footer Message  -->
+                            <div class="col-md-6">
+                                
+                                        <p>
+                                                2018 &copy; All Rights Reserved.
+                                            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                                        </p>
+                                    
+                            </div>
+                            <!-- End Footer Message  -->
+                            <!-- Social Links -->
+                            <div class="col-md-6">
+                                
+<div class="clear"></div>
+                                <a href="http://www.jahia.com" title="Powered by Jahia" target="_blank"><img src="../../../../modules/dx-base-demo-templates/img/poweredByJahia.png" alt="Powered by Jahia"></a>
+                                
+                            </div>
+                            <!-- End Social Links -->
+                        </div>
+                    </div>
+                </div>
+                <!--/copyright-->
+            </div>
+            <!--=== End Footer Version 1 ===-->
+            
+
+
+
+        <!-- Modal -->
+        <div id="loginForm" class="modal fade loginFormModal" role="dialog" modalOption="hide">
+            <div class="cd-user-modal-container">
+                <!-- Modal content-->
+                <div id="cd-login" class="is-selected cd-form"> <!-- log in form -->
+                    
+    <form method="post" name="loginForm" action="/cms/login" >
+        <input type="hidden" name="site" value="digitall"/>
+        
+                <input type="hidden" name="redirect" value="/fr/sites/digitall/home/our-companies/area-main/companies/all-movies.html?channel=static_html_ver1"/>
+                <input type="hidden" name="failureRedirect" value="/fr/sites/digitall/home/our-companies/area-main/companies/all-movies.html?channel=static_html_ver1"/>
+            
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-username" for="username">
+                                Nom d'utilisateur</label>
+                            <input class="full-width has-padding has-border" id="username" name="username"
+                                   type="text" placeholder="Nom d'utilisateur"/>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signin-password">
+                                Mot de passe</label>
+                            <input class="full-width has-padding has-border" name="password" id="password"
+                                   type="password" placeholder="Mot de passe" autocomplete="off"/>
+                            <a href="javascript:void(0);" class="hide-password">Show</a>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <input type="checkbox" id="useCookie" name="useCookie" checked=""/>
+                            <label for="useCookie">Se souvenir de moi</label>
+                        </p>
+
+                        <p class="fieldset">
+                            <input class="full-width btn btn-primary" type="submit" value="Login"/>
+                        </p>
+                    
+    </form>
+
+                </div>
+            </div>
+        </div><div class="clear"></div>
+        </div>
+        <!--/wrapper-->
+
+</body>
+</html>

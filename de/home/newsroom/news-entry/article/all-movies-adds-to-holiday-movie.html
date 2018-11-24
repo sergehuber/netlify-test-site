@@ -1,0 +1,675 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+
+
+<head>
+    <title>All-Movies erweitert seine Urlaubsfilme</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta http-equiv="cache-control" content="must-revalidate" />
+
+    <!-- Favicon -->
+    
+            <link rel="shortcut icon" href="/modules/dx-base-demo-templates/img/favicon/favicon.ico" type="image/x-icon">
+        
+    <!-- Web Fonts -->
+    
+
+
+    <!-- CSS Global Compulsory -->
+    
+
+
+
+    <!-- CSS Header and Footer -->
+    
+
+
+
+    <!-- CSS Implementing Plugins -->
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CSS Jahia Theme -->
+    
+
+    <!-- JS Global Compulsory -->
+    
+
+
+
+
+    <!-- JS Implementing Plugins -->
+    
+
+
+
+
+
+
+    <!-- CSS Customization -->
+    
+
+
+    <!-- JS Page Level -->
+    
+
+
+
+    <!-- Custom Javascript -->
+    
+
+
+
+    <!--[if lt IE 9]>
+    <jahia:resource type="javascript" path="%2Fmodules%2Fdx-base-demo-templates%2Fjavascript%2Frespond.js" insert="false" resource="respond.js" title="" key="" />
+<jahia:resource type="javascript" path="%2Fmodules%2Fdx-base-demo-templates%2Fjavascript%2Fhtml5shiv.js" insert="false" resource="html5shiv.js" title="" key="" />
+<jahia:resource type="javascript" path="%2Fmodules%2Fdx-base-demo-templates%2Fjavascript%2Fplaceholder-IE-fixes.js" insert="false" resource="placeholder-IE-fixes.js" title="" key="" />
+
+    <![endif]-->
+
+<script type="text/javascript">
+var contextJsParameters={contextPath:"",lang:"de",uilang:"de",siteUuid:"86806318-45db-4ae4-955e-5f5abb75b216",wcag:true,ckeCfg:""}; var CKEDITOR_BASEPATH="/modules/ckeditor/javascript/"; var scayt_custom_params=new Array(); scayt_custom_params['sLang']='de_DE';
+</script>
+<link id="staticAssetCSS0" rel="stylesheet" href="../../../../generated-resources/ab5f7043c0c1f7762b491dfc951579.min.css" media="screen" type="text/css"/>
+<script id="staticAssetJavascript0" type="text/javascript" src="../../../../generated-resources/d9495ef67ad05f82e947ccf6c297ea1b.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#newCommentForm").validate({
+                rules: {
+                    'jcr:title': "required",
+                    
+                    pseudo: "required",
+                    captcha: "required"
+                    
+                }
+            });
+        });
+    </script>
+
+<script id="staticAssetAggregatedJavascriptList0" type="text/javascript">
+var jASAJ=jASAJ || new Array();
+jASAJ.push('/modules/jquery/javascript/jquery-3.3.1.min.js');
+jASAJ.push('/modules/assets/javascript/jquery.jahia.min.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/jquery-migrate.min.js');
+jASAJ.push('/modules/bootstrap3-core/javascript/bootstrap.min.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/back-to-top.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/smoothScroll.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/modernizr.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/jquery.parallax.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/jquery.cslider.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/toastr.min.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/app.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/parallax-slider.js');
+jASAJ.push('/modules/dx-base-demo-templates/javascript/custom/template.js');
+jASAJ.push('/modules/dx-base-demo-core/javascript/owl.carousel.js');
+jASAJ.push('/modules/dx-base-demo-core/javascript/owl-carousel.js');
+jASAJ.push('/modules/dx-base-demo-core/javascript/plugins/photoswipe/photoswipe.min.js');
+jASAJ.push('/modules/dx-base-demo-core/javascript/plugins/photoswipe/photoswipe-ui-default.min.js');
+jASAJ.push('/modules/dx-base-demo-core/javascript/custom/news.js');
+jASAJ.push('/modules/assets/javascript/jquery-ui.min.js');
+jASAJ.push('/modules/rating/javascript/ui.stars.js');
+jASAJ.push('/modules/assets/javascript/jquery.validate.js');
+jASAJ.push('/modules/dx-base-demo-core/javascript/plugins/login-signup-modal-window/main.js');
+</script>
+
+</head>
+
+
+
+
+<body class="header-fixed header-fixed-space-v2 " >
+
+<div class="wrapper">
+    <!--=== Header v8 ===-->
+    <div class="header-v8 header-sticky">
+        <!-- Topbar blog -->
+        <div class="blog-topbar" >
+            <div class="topbar-search-block">
+                
+
+    <div class="container">
+        
+<form method="post" name="searchForm" action="/de/sites/digitall/home/search-results.html" >
+    <input type="hidden" name="jcrMethodToCall" value="get" />
+    <input type="hidden" name="src_originSiteKey" value="digitall"/>
+    
+<input onblur="if(this.value=='')this.value='Suche starten...';" onfocus="if(this.value=='Suche starten...')this.value='';" name="src_terms[0].term" id="searchTerm" placeholder="Suche starten..." type="text" class="form-control"  value="Suche starten..."/>
+<input type="hidden" name="src_terms[0].applyFilter" value="true"/>
+
+    <input type="hidden" name="src_terms[0].match" value="all_words"/>
+
+    <input type="hidden" name="src_terms[0].fields.siteContent" value="true"/>
+
+    <input type="hidden" name="src_terms[0].fields.tags" value="true"/>
+
+    <input type="hidden" name="src_terms[0].fields.files" value="true"/>
+<input type="hidden" name="src_sites.values" value="digitall"/>
+    <input type="hidden" name="src_sitesForReferences.values" value="systemsite"/>
+<input type="hidden" name="src_languages.values" value="de"/>
+            <div class="search-close"><i class="icon-close"></i></div>
+        
+</form>
+    </div><div class="clear"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!--Small language login menu-->
+                    <div class="col-sm-6 col-xs-6">
+                        <div class="topbar-list topbar-menu">
+                            
+
+<div id="languages" class="hidden-sm hidden-md hidden-lg">
+    
+        <a href="javascript:void(0);"><i class="fa fa-globe"></i>&nbsp;Languages
+            <span class="caret"></span></a>
+        <ul class="topbar-dropdown">
+                
+                        <li class="active"><a href="#">Deutsch<i class="fa fa-check"></i></a></li>
+                    
+                        <li><a title="Zur ausgew&auml;hlten Sprache wechseln" href="all-movies-adds-to-holiday-movie.html">Englisch</a>
+                        </li>
+                    
+                        <li><a title="Zur ausgew&auml;hlten Sprache wechseln" href="all-movies-adds-to-holiday-movie.html">Französisch</a>
+                        </li>
+                    
+        </ul>
+    
+</div><div class="hidden-sm hidden-md hidden-lg"><a id="login" href="#loginForm" role="button" data-toggle="modal"
+                                                      data-target="#loginForm"><i class="fa fa-user"></i>
+            Login</a>
+        </div><div class="clear"></div>
+                        </div>
+                        <div class="topbar-toggler"><span class="user-box hidden-sm hidden-md hidden-lg"> <i
+                                class="fa fa-user"></i>&nbsp;|&nbsp;<i class="fa fa-globe"></i>&nbsp;<i
+                                class="fa fa-caret-up"></i></span>
+                        </div>
+                        <div class="pull-left"><span class="hidden-sm hidden-md hidden-lg">
+                            <i class="fa fa-search search-btn"></i></span>
+                        </div>
+                    </div>
+                    <!--/end Small language login menu-->
+                    <!--Full language login menu-->
+                    <div class="col-sm-6 col-xs-6 clearfix">
+                        <div class="topbar-list topbar-log_reg pull-right visible-sm-block visible-md-block visible-lg-block">
+                            <div class="pull-right">
+    <i class="fa fa-search search-btn"></i>
+</div><div class="pull-right"><a id="login" href="#loginForm" role="button" data-toggle="modal"
+                                   data-target="#loginForm"><i class="fa fa-user"></i> Login</a>
+        </div>
+
+<div id="languages" class=" pull-right">
+    
+        <a href="javascript:void(0);"><i class="fa fa-globe"></i>&nbsp;Languages
+            <span class="caret"></span></a>
+        <ul class="languages topbar-dropdown">
+                
+                        <li class="active"><a href="#">Deutsch<i class="fa fa-check"></i></a></li>
+                    
+                        <li><a title="Zur ausgew&auml;hlten Sprache wechseln" href="all-movies-adds-to-holiday-movie.html">Englisch</a>
+                        </li>
+                    
+                        <li><a title="Zur ausgew&auml;hlten Sprache wechseln" href="all-movies-adds-to-holiday-movie.html">Französisch</a>
+                        </li>
+                    
+        </ul>
+    
+</div><div class="clear"></div>
+                        </div>
+                    </div>
+                    <!--/end Full language login menu-->
+                </div>
+                <!--/end row-->
+            </div>
+            <!--/end container-->
+        </div>
+        <!-- End Topbar blog -->
+
+        <!-- Navbar -->
+
+        <div class="navbar mega-menu" role="navigation" >
+                    <div class="container">
+                        <div class="res-container">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button><div class="clear"></div>
+                                    <div id="logo" class="navbar-brand">
+                                        <a href="../../../../home.html" class="logo"><img src="../../../../files/live/modules/dx-base-demo-templates/2.0.2/templates/files/img/logo1-default.png" alt="Logo"></a><div class="clear"></div>
+                                    </div>
+                                
+                        </div>
+                        <div class="collapse navbar-collapse navbar-responsive-collapse">
+                            <ul class="nav navbar-nav">
+
+<li><a href="../../../../home.html" class="dropdown-toggle">Start</a></li>
+
+<li class="dropdown ">    <a href="../../../about.html" class="dropdown-toggle">Über uns</a>
+<ul class="dropdown-menu">
+<li >
+<a href="../../../about/history.html" >Historie   </a></li>
+<li >
+<a href="../../../about/leadership.html" >Geschäftsführung   </a></li>
+</ul>
+</li>
+
+<li ><a href="../../../corporate-responsibility.html" class="dropdown-toggle">Nachhaltigkeit</a></li>
+
+<li ><a href="../../../our-companies.html" class="dropdown-toggle">Unsere Marken</a></li>
+
+<li class="dropdown active">    <a href="../../../newsroom.html" class="dropdown-toggle">Aktuelles</a>
+<ul class="dropdown-menu">
+<li >
+<a href="../../all-news.html" >Alle Nachrichten   </a></li>
+</ul>
+</li>
+
+<li class="dropdown"><a class="dropdown-toggle" href="javascript:void(0)">&nbsp;<i class="fa fa-caret-down fa-lg"></i></a>
+<ul class="dropdown-menu pull-right dropdown-menu-alt-side">
+<li class="dropdown-submenu ">    <a href="../../../investors.html" class="dropdown-toggle">Investoren</a>
+<ul class="dropdown-menu">
+<li >
+<a href="../../../investors/events.html" >Veranstaltungen   </a></li>
+</ul>
+</li>
+
+</ul><div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Navbar -->
+            </div>
+            <!--=== End Header v8 ===-->
+
+            <!--=== Breadcrumbs v1 ===-->
+    <div class="breadcrumbs-v1" style="background:url(../../../../modules/dx-base-demo-core/img/default_banner_img.jpg) no-repeat scroll center center / cover;">
+        <div class="container">
+            <span></span>
+            <h1>Filme können über Ihren Erfolg entscheiden</h1>
+        </div>
+    </div>
+    <!--=== End Breadcrumbs v1 ===--><div class="clear"></div>
+            <!--=== Content Part ===-->
+            <div class="container margin-top-20">
+                
+
+
+    <div id="bootstrap-layer-container-rows-a" class="row blog-page blog-item">
+
+    <div class="container-fluid">
+
+    <div class="row">
+<div class="col-md-9">
+
+
+
+
+
+
+
+
+
+
+<!-- News Detail -->
+
+<!-- News v3 -->
+<div class="news-v3 margin-bottom-30">
+    <h2>All-Movies erweitert seine Urlaubsfilme</h2>
+
+    <div id="sync1" class="owl-carousel newsPicture">
+        
+            <div class="item">
+                
+                <img class="img-responsive full-width" src="../../../../files/live/sites/digitall/files/images/news/x-mas.jpg" height="960" width="1440"/>
+            
+
+            </div>
+        
+    </div>
+
+    
+        <div id="sync2" class="owl-carousel owl-theme">
+            
+        </div>
+
+    <div class="news-v3-in">
+        
+
+
+<ul class="list-inline posted-info">
+    
+    <li>Posted01 Dez, 2015</li>
+</ul><p><strong>all-Movies</strong>, ein Medien- und Unterhaltungsunternehmen, und vertreibt eine Bibliothek von &uuml;ber 50 neue Urlaubsfilme. Zu den kommenden Kinofilmen geh&ouml;ren die internationalen Produktionen &quot;Santa&rsquo;s Son Comes Home&quot; mit John Doe und Jane Roberts und &quot;The Day The Rock Broke Santa&rsquo;s Knee&quot; nach dem Weltbestseller von Jim Schutterhand. Mit dem neuen Filmen ist all-Movies das einzige Unternehmen , das seine Filme in den weltweit im Kinos ausstrahlt. Neben gro&szlig;e Hollywood-Produktionen, wird auch f&uuml;r anspruchsvolles Kino produziert. In Kanada finden derzeit die Dreharbeiten zu Jeres Penos Verfilmung &quot;&Uuml;ber den D&auml;chern von Paris&quot; statt. In den kommenden Wochen finden die Dreharbeiten noch in China und der Schweiz statt. Der weltweite Kinostart soll gegen Ende des kommendes Jahres erfolgen.</p>
+
+    </div>
+
+</div>
+
+
+<p>
+    <a href="javascript:history.back()" class="button button-mini button-border button-rounded"><span><i
+            class="icon-line-arrow-left"></i>Back</span></a>
+</p>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#avg65c0972a-00a3-4287-85e1-3a0e8c242c55").children().not(":input").hide();
+                
+                $("#avg65c0972a-00a3-4287-85e1-3a0e8c242c55").stars();
+            });
+        </script>
+        <div class="ratings">
+
+            <div class="rating-L"><strong>Average rating</strong>
+        <span>(<span id="all_votes65c0972a-00a3-4287-85e1-3a0e8c242c55"></span> votes; <span
+                id="all_avg65c0972a-00a3-4287-85e1-3a0e8c242c55"></span>)</span>
+
+                <form id="avg65c0972a-00a3-4287-85e1-3a0e8c242c55" style="width: 200px">
+                    <input type="radio" name="rate_avg" value="1" title="Poor"
+                           disabled="disabled" />
+                    <input type="radio" name="rate_avg" value="2" title="Fair"
+                           disabled="disabled" />
+                    <input type="radio" name="rate_avg" value="3" title="Average"
+                           disabled="disabled" />
+                    <input type="radio" name="rate_avg" value="4" title="Good"
+                           disabled="disabled" />
+                    <input type="radio" name="rate_avg" value="5" title="Excellent"
+                           disabled="disabled" />
+                </form>
+            </div>
+        </div>
+
+<div id="comments">
+    
+</div>
+
+
+
+
+
+    <a name="addComments"></a>
+
+    
+        <form action="/de/sites/digitall/home/newsroom/news-entry/article/all-movies-adds-to-holiday-movie.addComment.do" method="post" id="newCommentForm"><input type="hidden" name="disableXSSFiltering" value="true"/><input type="hidden" name="form-token" value="d4903c4b-55d2-4e0c-8704-a888768e0ff6"/>
+            <input type="hidden" name="jcrNodeType" value="jnt:post"/>
+            <input type="hidden" name="jcrRedirectTo" value="/de/sites/digitall/home/newsroom/news-entry/article/all-movies-adds-to-holiday-movie"/>
+            <input type="hidden" name="jcrNewNodeOutputFormat" value="html"/>
+            <input type="hidden" name="jcrResourceID" value="b090561a-e5b3-41e1-872f-6a66c57e13b0"/>
+
+            <div id="formGenericComment">
+                <fieldset>
+                    
+                        <p class="field">
+                            <label for="comment_pseudo">Pseudo</label>
+                            <input value=""
+                                   type="text" size="35" name="pseudo" id="comment_pseudo"
+                                   tabindex="1"/>
+                        </p>
+                    
+                    <p class="field">
+                        <label class="left" for="comment-title">Titel:</label>
+                        <input class="" value=""
+                               type="text" size="35" id="comment-title" name="jcr:title"
+                               tabindex="1"/>
+                    </p>
+
+                    <p class="field">
+                        <label class="left" for="jahia-comment-65c0972a-00a3-4287-85e1-3a0e8c242c55">Kommentare:</label>
+                        <textarea rows="7" cols="35" id="jahia-comment-65c0972a-00a3-4287-85e1-3a0e8c242c55"
+                                  name="content"
+                                  tabindex="2"></textarea>
+                    </p>
+
+                    
+                        <p class="field">
+                            <label class="left" for="captcha">Captcha:</label>
+                            <img id="jahia-captcha-0ba6497c-83cd-4b16-b8ea-bc9d08399b1b" alt="captcha" src="/cms/captcha?token=d4903c4b-55d2-4e0c-8704-a888768e0ff6" />&nbsp;<a href="#reload-captcha" onclick="var captcha=document.getElementById('jahia-captcha-0ba6497c-83cd-4b16-b8ea-bc9d08399b1b'); var captchaUrl=captcha.src; if (captchaUrl.indexOf('&amp;tst=') != -1){captchaUrl=captchaUrl.substring(0,captchaUrl.indexOf('&amp;tst='));}captchaUrl=captchaUrl+'&amp;tst='+new Date().getTime(); captcha.src=captchaUrl; return false;"><img src="../../../../icons/refresh.png" alt="refresh"/></a>
+                        </p>
+                        <p class="field">
+                            <label class="left" for="captcha">Geben Sie den Captcha-Wert hier:</label>
+                            <input type="text" id="captcha" name="jcrCaptcha"/>
+                        </p>
+                    
+
+                    <p>
+                        <input type="reset" value="Zurücksetzen" class="button"
+                               tabindex="3"  />
+
+                        <input type="submit" value="Senden" class="button"
+                               tabindex="4"   onclick=""/>
+                    </p>
+                </fieldset>
+            </div>
+        </form><div class="clear"></div></div>
+        <div class="col-md-3"><div class="clear"></div>
+
+<ul class="list-unstyled blog-latest-posts margin-bottom-20">
+    <li>
+        
+
+
+<h3><a href="movies-can-determine-your-succes.html">Filme können über Ihren Erfolg entscheiden</a></h3>
+<small>06 Jan, 2016&nbsp;In&nbsp;health,movies
+</small>
+        <p>Nach all-Movies, ein Medien- und Unterhaltungsunternehmen, gibt es neue Forschungsergebnisse, die nahelegen, dass das sogenanntes Brainfood einen posi...</p>
+    </li>
+</ul>
+
+<ul class="list-unstyled blog-latest-posts margin-bottom-20">
+    <li>
+        
+
+
+<h3><a href="all-organic-foods-network-gains.html">All-Organic findet einen weiteren Sponsor</a></h3>
+<small>15 Dez, 2015&nbsp;In&nbsp;food,health
+</small>
+        <p>all-Organic Foods Network, Bio-Lebensmittel-Netzwerk, erreicht langsam aber stetig einen immer höheren Bekanntheitsgrad. Wir freuen uns, Greater Paren...</p>
+    </li>
+</ul>
+
+<ul class="list-unstyled blog-latest-posts margin-bottom-20">
+    <li>
+        
+
+
+<h3><a href="../../../about/history/area-main/timeline/merger-with-acme-space-ltd-is-of.html">Fusion mit Acme Space Ltd</a></h3>
+<small>01 Dez, 2015
+</small>
+        <p>Die riesigen Wachstumsmärkte der Luft- und Raumfahrtindustrie füren dazu, dass die Acme Space Ltd und Digitall miteinander verschmelzen, um das Kunden...</p>
+    </li>
+</ul><div class="clear"></div><div class="clear"></div></div>
+    </div>
+
+    </div>
+
+    </div><div class="clear"></div>
+            </div>
+            <!-- End Content Part -->
+            <br/>
+            <!--=== Footer Version 1 ===-->
+            <div class="footer-v1">
+                <div class="footer" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 md-margin-bottom-40">
+                                
+                            </div>
+                            <!--/col-md-12-->
+
+                        </div>
+                    </div>
+                </div>
+                <!--/footer-->
+
+                <div class="copyright" >
+                    <div class="container">
+                        <div class="row">
+                            <!-- Footer Message  -->
+                            <div class="col-md-6">
+                                
+                                        <p>
+                                                2018 &copy; All Rights Reserved.
+                                            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                                        </p>
+                                    
+                            </div>
+                            <!-- End Footer Message  -->
+                            <!-- Social Links -->
+                            <div class="col-md-6">
+                                
+<div class="clear"></div>
+                                <a href="http://www.jahia.com" title="Powered by Jahia" target="_blank"><img src="../../../../modules/dx-base-demo-templates/img/poweredByJahia.png" alt="Powered by Jahia"></a>
+                                
+                            </div>
+                            <!-- End Social Links -->
+                        </div>
+                    </div>
+                </div>
+                <!--/copyright-->
+            </div>
+            <!--=== End Footer Version 1 ===-->
+            
+
+
+
+        <!-- Modal -->
+        <div id="loginForm" class="modal fade loginFormModal" role="dialog" modalOption="hide">
+            <div class="cd-user-modal-container">
+                <!-- Modal content-->
+                <div id="cd-login" class="is-selected cd-form"> <!-- log in form -->
+                    
+    <form method="post" name="loginForm" action="/cms/login" >
+        <input type="hidden" name="site" value="digitall"/>
+        
+                <input type="hidden" name="redirect" value="/de/sites/digitall/home/newsroom/news-entry/article/movies-can-determine-your-succes.html?channel=static_html_ver1"/>
+                <input type="hidden" name="failureRedirect" value="/de/sites/digitall/home/newsroom/news-entry/article/movies-can-determine-your-succes.html?channel=static_html_ver1"/>
+            
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-username" for="username">
+                                Benutzername</label>
+                            <input class="full-width has-padding has-border" id="username" name="username"
+                                   type="text" placeholder="Benutzername"/>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signin-password">
+                                Passwort</label>
+                            <input class="full-width has-padding has-border" name="password" id="password"
+                                   type="password" placeholder="Passwort" autocomplete="off"/>
+                            <a href="javascript:void(0);" class="hide-password">Show</a>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <input type="checkbox" id="useCookie" name="useCookie" checked=""/>
+                            <label for="useCookie">Erinnere dich an mich</label>
+                        </p>
+
+                        <p class="fieldset">
+                            <input class="full-width btn btn-primary" type="submit" value="Login"/>
+                        </p>
+                    
+    </form>
+
+                </div>
+            </div>
+        </div><div class="clear"></div>
+        </div>
+        <!--/wrapper-->
+
+</body>
+</html>
